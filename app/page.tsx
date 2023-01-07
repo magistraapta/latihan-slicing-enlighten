@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Pict from '../public/pict.svg'
 function Page() {
   return (
-    <div className='flex align-middle'>
+    <div className='flex'>
         <div className=' py-20  w-7/12'>
             <div className=' mx-36'>
                 <p className=' font-semibold italic text-black text-xl'>Enlighten.</p>
@@ -20,10 +20,10 @@ function Page() {
                 </div>
                 <div className=' mt-10'>
                     <div className=''>
-                        <input type="text" placeholder='Email adress' className=' border border-gray-400 w-96 h-11 rounded-lg' />
+                        <input type="text" placeholder='Email adress' className=' px-3 border border-gray-400 w-96 h-11 rounded-lg' />
                         <button className='ml-5 px-7 py-2.5 text-white rounded-lg bg-blue'>Invite me</button>
                         <div>
-                        <p className=' text-xs mt-5  text-black opacity-60'>
+                        <p className=' text-xs mt-5 mr-3 text-black opacity-60'>
                         Sign up for updates to be the first to know when we launch. No spam, just important information and exclusive offers.
                         </p>
                         </div>
